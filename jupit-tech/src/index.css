@@ -13,6 +13,6 @@
   }
 
   .absolute-center {
-    @apply absolute bottom-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+    @apply absolute bottom-[30%] left-1/2 transform -translate-x-1/2 -translate-y-1/2;
   }
 }

@@ -3,6 +3,7 @@ import { ReactComponent as BTC } from "../../assets/images/btc.svg";
 import { ReactComponent as Dollar } from "../../assets/images/dollar.svg";
 import { ReactComponent as Pump } from "../../assets/images/arrow-up.svg";
 import { ReactComponent as RepeatIcon } from "../../assets/images/repeat.svg";
+import chart from "../../assets/images/chart-micro.png";
 
 const AssetItem = () => {
   return (
@@ -35,6 +36,14 @@ const AssetItem = () => {
           <div className="text-sm text-deepBlue font-bold">$16,600.65</div>
         </div>
         <Pump />
+      </div>
+      {/* chart */}
+      <div className="w-full">
+        <img
+          src={chart}
+          alt="chart"
+          className="w-full object-center object-contain"
+        />
       </div>
     </div>
   );
