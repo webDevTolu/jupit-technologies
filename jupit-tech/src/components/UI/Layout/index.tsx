@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { Fragment, ReactNode } from "react";
 import Navbar from "../../NavBar";
 import Footer from "../../Footer";
 
@@ -8,11 +8,13 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="font-pop h-screen w-screen">
-      <Navbar />
-      <main className="h-auto overflow-y-scroll">{children}</main>
+    <Fragment>
+      <div className="font-pop h-auto w-screen min-h-screen overflow-y-scroll mb-20">
+        <Navbar />
+        <main className="h-auto">{children}</main>
+      </div>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 
