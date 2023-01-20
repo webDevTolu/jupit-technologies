@@ -32,6 +32,7 @@ module.exports = {
         error: "#CF5050",
         primary: {
           100: "#1E194E",
+          80: "#0B0B3B",
         },
         gray: {
           80: "#424242",
