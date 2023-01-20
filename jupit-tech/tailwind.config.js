@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontSize: {
       xxs: "10px",
+      xs: "12px",
     },
     fontFamily: {
       pop: ["Poppins"],
@@ -12,6 +13,9 @@ module.exports = {
     extend: {
       lineHeight: {
         xxs: "14px",
+      },
+      boxShadow: {
+        mainNav: "2px 2px 24px rgba(58, 57, 94, 0.43)",
       },
       colors: {
         badge: "#CF5050",

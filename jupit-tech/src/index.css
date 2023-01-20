@@ -11,4 +11,8 @@
   .center {
     @apply flex justify-center items-center;
   }
+
+  .absolute-center {
+    @apply absolute bottom-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
 }
