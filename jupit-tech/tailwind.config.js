@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       lineHeight: {
         xxs: "14px",
+        140: "140%",
       },
       boxShadow: {
         mainNav: "2px 2px 24px rgba(58, 57, 94, 0.43)",
@@ -26,6 +27,9 @@ module.exports = {
         pump: "#0EBF7C",
         deepBlue: "#090931",
         repeat: "FFA000",
+        primary: {
+          100: "#1E194E",
+        },
         gray: {
           80: "#424242",
           50: "#737373",

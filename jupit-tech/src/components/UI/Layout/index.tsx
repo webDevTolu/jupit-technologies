@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="font-pop h-screen w-screen">
       <Navbar />
-      <main>{children}</main>
+      <main className="h-auto overflow-y-scroll">{children}</main>
       <Footer />
     </div>
   );

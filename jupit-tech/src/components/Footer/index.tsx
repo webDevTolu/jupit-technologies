@@ -9,7 +9,7 @@ import Nav from "./Nav";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="h-20 w-full fixed bottom-0 left-0 border border-[#EBEBEB]">
+      <div className="h-20 w-full relative bottom-0 left-0 border border-[#EBEBEB]">
         <div className="absolute w-full h-full bottom-0 left-0 flex items-center justify-evenly">
           <Nav icon={<HomeIcon />} title="Home" />
           <Nav icon={<WalletIcon />} title="Wallet" />
