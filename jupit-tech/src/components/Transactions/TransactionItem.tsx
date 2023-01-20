@@ -17,7 +17,7 @@ const TransactionItem = ({
   const formattedAmount = formatAmount(amount);
 
   return (
-    <div className="w-full flex justify-between items-start px-2">
+    <div className="w-full flex justify-between items-start p-2">
       <div className="flex gap-x-2 items-center">
         <span>
           {transaction === "credit" && <CreditIcon />}
