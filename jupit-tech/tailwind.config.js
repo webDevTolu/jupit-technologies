@@ -5,6 +5,7 @@ module.exports = {
     fontSize: {
       xxs: "10px",
       xs: "12px",
+      sm: "14px",
     },
     fontFamily: {
       pop: ["Poppins"],
@@ -27,12 +28,15 @@ module.exports = {
         pump: "#0EBF7C",
         deepBlue: "#090931",
         repeat: "FFA000",
+        success: "#219653",
+        error: "#CF5050",
         primary: {
           100: "#1E194E",
         },
         gray: {
           80: "#424242",
           50: "#737373",
+          10: "#EBEBEB",
         },
         text: {
           100: "#040415",

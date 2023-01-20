@@ -1,4 +1,4 @@
-import Assets from "../components/Assets";
+import AssetsTwo from "../components/AssetsTwo";
 import Balance from "../components/Balance";
 import FundWithdraw from "../components/FundWithdraw";
 import Transactions from "../components/Transactions";
@@ -8,7 +8,7 @@ const HomePageTwo = () => {
     <div className="">
       <Balance />
       <FundWithdraw />
-      <Assets />
+      <AssetsTwo />
       <Transactions />
     </div>
   );
