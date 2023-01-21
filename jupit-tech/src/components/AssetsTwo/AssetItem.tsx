@@ -23,7 +23,7 @@ const AssetItem = ({ image, coin, price, change, market }: AssetInterface) => {
       {/* content*/}
       <div className="flex flex-col gap-y-1">
         <h4 className="text-sm text-text-black font-pop font-semibold">
-          ${formattedPrice.formattedAmount}
+          ${formattedPrice.formattedAmount}.{formattedPrice.decimals}
         </h4>
         <h5 className="text-xs font-medium font-pop text-gray-50">{coin}</h5>
         <div className="flex gap-x-1 items-center">
