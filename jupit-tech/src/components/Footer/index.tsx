@@ -15,7 +15,7 @@ const Footer = () => {
         <Nav icon={<TransactionsIcon />} title="Transactions" />
         <Nav icon={<MoreIcon />} title="More" />
       </nav>
-      <div className="h-24 w-24 bg-white transparent-border absolute-center center z-50">
+      <div className="h-24 w-24 bg-transparent transparent-border absolute-center center z-50">
         <div className="w-16 h-16 rounded-full p-4 center bg-jupitBlue shadow-mainNav">
           <SwapIcon />
         </div>
