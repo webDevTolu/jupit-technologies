@@ -8,9 +8,9 @@ const Balance = () => {
     <HideAmountProvider>
       <div className="px-5 py-[18px] bg-white w-screen">
         {/* card */}
-        <div className="overflow-x-hidden w-full flex gap-x-2">
+        <div className="overflow-x-hidden w-max flex gap-x-2 md:gap-x-4 mx-auto">
           <BalanceCard>
-            <div className="flex flex-col gap-y-3">
+            <div className="flex flex-col gap-y-3 md:justify-between">
               <CurrencyName name="Naira" />
               <Price nairaAmount={89909009.06} dollarAmount={340.56} />
             </div>

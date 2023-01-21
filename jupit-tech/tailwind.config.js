@@ -6,6 +6,7 @@ module.exports = {
       xxs: "10px",
       xs: "12px",
       sm: "14px",
+      lg: "18px",
     },
     fontFamily: {
       pop: ["Poppins"],
@@ -50,7 +51,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        cardBgImage: "url('/src/assets/images/cardImage.png')",
+        cardBgImage: "url('/src/assets/images/card-image.svg')",
       },
     },
   },

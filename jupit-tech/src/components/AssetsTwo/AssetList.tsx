@@ -5,7 +5,7 @@ import eth from "../../assets/images/eth.png";
 
 const AssetList = () => {
   return (
-    <div className="flex gap-x-2 items-start pl-6 md:px-8 w-full overflow-x-hidden md:grid md:grid-cols-6 md:gap-4">
+    <div className="flex gap-x-2 items-start pl-6 md:px-8 lg:px-10 w-full overflow-x-hidden md:grid md:grid-cols-6 lg:grid-cols-8 md:gap-4 lg:gap-6">
       <AssetItem
         image={usdt}
         coin="USDT"

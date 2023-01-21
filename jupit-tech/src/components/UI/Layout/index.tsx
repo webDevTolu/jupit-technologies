@@ -12,8 +12,8 @@ const Layout = ({ children }: LayoutProps) => {
       <div className="font-pop h-auto w-screen min-h-screen overflow-y-scroll mb-20">
         <Navbar />
         <main className="h-auto">{children}</main>
+        <Footer />
       </div>
-      <Footer />
     </Fragment>
   );
 };
