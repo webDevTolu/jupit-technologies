@@ -4,7 +4,7 @@ import AssetItem from "./AssetItem";
 
 const AssetsList = () => {
   return (
-    <div className="flex flex-col gap-y-2 items-start pl-6 pr-4 w-full">
+    <div className="flex flex-col md:flex-row gap-2 md:gap-4 items-start pl-6 pr-4 w-full">
       <AssetItem
         image={logo}
         title="Jupit OTC Desk"

@@ -13,7 +13,7 @@ const AssetItem = ({
   bgColor,
   textColor,
 }: ProductsInterface) => {
-  const style = `${bgColor} ${textColor} w-full h-20 p-4 rounded-lg grid grid-cols-5 gap-x-4`;
+  const style = `${bgColor} ${textColor} w-full h-20 md:h-auto p-4 md:p-6 rounded-lg grid grid-cols-5 gap-x-4`;
 
   return (
     <div className={style}>
