@@ -19,6 +19,14 @@ const Balance = () => {
           </BalanceCard>
           <BalanceCard>
             <div className="flex flex-col gap-y-3">
+              <CurrencyName name="Naira" />
+              <Price nairaAmount={89909009.06} dollarAmount={340.56} />
+            </div>
+
+            <span className="mr-[18px] text-xs text-primaryBlue">Jupit</span>
+          </BalanceCard>
+          <BalanceCard>
+            <div className="flex flex-col gap-y-3">
               <CurrencyName name="Bitcoin" />
               <Price nairaAmount={89909009.06} dollarAmount={340.56} />
             </div>

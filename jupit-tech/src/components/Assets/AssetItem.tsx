@@ -7,7 +7,7 @@ import chart from "../../assets/images/chart-micro.png";
 
 const AssetItem = () => {
   return (
-    <div className="border-[0.7px] border-lightBorder min-w-[137px] h-[143px] rounded-lg bg-white">
+    <div className="border-[0.7px] border-lightBorder min-w-[137px] h-[143px] md:h-auto rounded-lg bg-white">
       {/* coins + pump */}
       <div className="flex justify-between items-center pt-1.5 px-3">
         <div className="flex">
