@@ -21,6 +21,7 @@ module.exports = {
       },
       boxShadow: {
         mainNav: "2px 2px 24px rgba(58, 57, 94, 0.43)",
+        services: "0px 4px 4px rgba(196, 196, 196, 0.25)",
       },
       colors: {
         badge: "#CF5050",

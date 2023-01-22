@@ -6,9 +6,9 @@ import QuickBuy from "./QuickBuy";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-auto lg:h-screen bg-white px-4 py-6 lg:pt-11 lg:px-[100px] overflow-x-hidden">
+    <div className="w-screen h-auto lg:h-screen bg-white px-4 py-6 lg:pt-11 lg:px-[100px]">
       <Nav />
-      <div className="w-full grid grid-cols-1 gap-y-4 lg:grid-cols-3 border mt-8 md:h-mt-4">
+      <div className="w-full grid grid-cols-1 gap-y-4 lg:grid-cols-3 mt-8 md:h-mt-4">
         {/* content */}
         <div className="w-full md:col-span-2 flex flex-col items-start gap-y-6 md:gap-y-8 lg:gap-y-12">
           <div className="flex flex-col gap-y-3 md:gap-y-4 lg:gap-y-6 items-start">
@@ -30,11 +30,11 @@ const Hero = () => {
           </button>
         </div>
         {/* image */}
-        <div className="border border-red-900 w-full h-auto relative">
+        <div className="w-full h-auto relative">
           <img
             src={masthead}
             alt="masthead"
-            className="w-auto h-full object-contain object-center border border-blue-900 lg:-mt-8"
+            className="w-auto h-full object-contain object-center lg:-mt-8"
           />
           <img
             src={card1}
@@ -46,7 +46,7 @@ const Hero = () => {
             alt="card-2"
             className="absolute bottom-0.5 top-[55%] lg:top-[60%] right-1"
           />
-          <div className="lg:w-[261.99px] w-full h-[220.69px] mt-4 lg:absolute top-[10%] -left-32">
+          <div className="lg:w-[261.99px] w-full h-[220.69px] mt-4 lg:absolute top-[10%] -left-32 hidden lg:block">
             <QuickBuy />
           </div>
         </div>

@@ -1,9 +1,11 @@
 import Hero from "./Hero";
+import OurServices from "./OurServices";
 
 const LandingPageComponent = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
+      <OurServices />
     </div>
   );
 };
