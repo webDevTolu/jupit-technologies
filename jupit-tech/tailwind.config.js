@@ -7,6 +7,7 @@ module.exports = {
       xs: "12px",
       sm: "14px",
       lg: "18px",
+      base: "16px",
     },
     fontFamily: {
       pop: ["Poppins"],
@@ -31,6 +32,10 @@ module.exports = {
         repeat: "FFA000",
         success: "#219653",
         error: "#CF5050",
+        navLink: "#3D3D3D",
+        jupit: {
+          sec: "#FFA000",
+        },
         primary: {
           100: "#1E194E",
           80: "#0B0B3B",

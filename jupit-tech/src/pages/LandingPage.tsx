@@ -1,9 +1,7 @@
+import LandingPageComponent from "../components/LandingPage";
+
 const LandingPage = () => {
-  return (
-    <div>
-      <h1>Landing Page</h1>
-    </div>
-  );
+  return <LandingPageComponent />;
 };
 
 export default LandingPage;
