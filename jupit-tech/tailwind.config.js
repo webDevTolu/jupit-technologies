@@ -34,6 +34,7 @@ module.exports = {
         success: "#219653",
         error: "#CF5050",
         navLink: "#3D3D3D",
+        ctaBlue: "#212192",
         jupit: {
           sec: "#FFA000",
         },

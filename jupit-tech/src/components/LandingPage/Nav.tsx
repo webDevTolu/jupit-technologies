@@ -8,7 +8,7 @@ const Nav = () => {
   const [isOPen, setIsOPen] = useState<boolean>(false);
 
   return (
-    <nav className="flex justify-between items-center">
+    <nav className="flex justify-between items-center w-full">
       {/* logo */}
       <Link to="/" className="w-20 h-[50]">
         <img
