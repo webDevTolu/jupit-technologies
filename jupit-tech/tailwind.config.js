@@ -12,6 +12,7 @@ module.exports = {
     fontFamily: {
       pop: ["Poppins"],
       inter: ["Inter"],
+      nexa: ["Nexa"],
     },
     extend: {
       lineHeight: {
