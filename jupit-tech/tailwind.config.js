@@ -36,6 +36,7 @@ module.exports = {
         error: "#CF5050",
         navLink: "#3D3D3D",
         ctaBlue: "#212192",
+        inactive: "#EFEFEF",
         jupit: {
           sec: "#FFA000",
         },
@@ -60,6 +61,8 @@ module.exports = {
       },
       backgroundImage: {
         cardBgImage: "url('/src/assets/images/card-image.svg')",
+        cardLinearGradient:
+          "linear-gradient(180deg, #1C1D93 0%, #3A3B8F 100%);",
       },
     },
   },
