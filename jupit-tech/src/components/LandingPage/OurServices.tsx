@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import transaction from "../../assets/images/transaction.png";
 import transactionBlue from "../../assets/images/transaction-1.png";
+import star from "../../assets/images/star-img.png";
 
 const OurServices = () => {
   return (
-    <div className="bg-lightBorder p-6 md:p-10 lg:p-16 flex items-center justify-center">
+    <div className="bg-lightBorder p-6 md:p-10 lg:p-16 flex items-center justify-center relative">
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-3 md:gap-4 lg:gap-6">
         <Card
           image={transaction}
@@ -37,6 +38,11 @@ const OurServices = () => {
           bgColor="bg-cardLinearGradient"
         />
       </div>
+      <img
+        src={star}
+        alt="star"
+        className="absolute w-auto h-auto object-contain object-center bottom-1 left-0 md:left-2"
+      />
     </div>
   );
 };
